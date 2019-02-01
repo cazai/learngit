@@ -99,3 +99,20 @@ $ git stash drop
 2.恢复就删除
 $ git stash pop
 
+Feature分支
+有内容，未合并的分支删除
+$ git branch -D xxx
+
+多人协作
+查看远程库的信息
+$ git remote -v
+
+本地创建和远程分支对应的分支
+$ git checkout -b xxx origin/xxx
+
+远程抓取分支
+$ git pull
+
+建立本地分支和远程分支的关联
+$ git branch --set-upstream-to=origin/xxx xxx
+git 
