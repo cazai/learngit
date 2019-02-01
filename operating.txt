@@ -83,7 +83,7 @@ $ git merge xxx
 $ git branch -d xxx
 
 合并分支，取消Fast forward模式
-git merge --no-ff -m "merge with no-ff" dev
+git merge --no-ff -m "merge with no-ff" xxx
 
 Bug分支
 当前工作现场“储藏”起来
@@ -115,4 +115,3 @@ $ git pull
 
 建立本地分支和远程分支的关联
 $ git branch --set-upstream-to=origin/xxx xxx
-git 
