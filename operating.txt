@@ -63,3 +63,24 @@ $ git push -u origin master
 本地库的所有内容推送到远程库
 $ git push origin master
 
+从远程库克隆
+$ git clone git@github.com:michaelliao/gitskills.git
+
+创建与合并分支
+创建分支
+$ git checkout -b xxx
+
+查看当前分支
+$ git branch
+
+切换分支
+$ git checkout xxx
+
+合并分支
+$ git merge xxx
+
+删除分支
+$ git branch -d xxx
+
+合并分支，取消Fast forward模式
+git merge --no-ff -m "merge with no-ff" dev
